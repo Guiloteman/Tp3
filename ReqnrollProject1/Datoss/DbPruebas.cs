@@ -17,6 +17,8 @@ namespace ReqnrollProject1.Datoss
         Paciente p;
         List<HistoriaPaciente> historiaPacientes;
         HistoriaPaciente hp;
+
+        bool result = false;
         public DbPruebas()
         {
             enfermeros = new List<Enfermero>();
@@ -26,18 +28,21 @@ namespace ReqnrollProject1.Datoss
             historiaPacientes = new List<HistoriaPaciente>();
             hp = new HistoriaPaciente { paciente=p, consulta= "Dolor en la zona pélvica", fecha= "12-10-2025" };
         }
-        public void RegistrarEnfermeros(Enfermero enfermero)
-        {
+        public bool RegistrarEnfermeros(Enfermero enfermero)
+        {   
             enfermeros.Add(e);
+            result = true;
+            return result;
         }
 
         public List<Enfermero> ObtenerTodos()
         {
             return enfermeros;
         }
-        public void RegistrarPacientes(Paciente paciente)
+        public bool RegistrarPacientes(Paciente paciente)
         {
             enfermeros.Add(e);
+            return result = true;
         }
 
         public List<Paciente> ObtenerPacientes() { return pacientes; }

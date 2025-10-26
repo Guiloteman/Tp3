@@ -12,35 +12,26 @@ namespace ReqnrollProject1.Modelo
     public class ServiciosRegistros
     {
         private Interface1 db;
+        private bool valor = false;
         public ServiciosRegistros(Interface1 dbPruebas)
         {
             db = dbPruebas;
         }
 
-        public void AñadirEnfermeros(Enfermero enfermero)
+        public bool AñadirEnfermeros(Enfermero enfermero)
         {
-            db.RegistrarEnfermeros(enfermero);
-            Console.WriteLine($"[SERVICIO] Operación de registro completada para {enfermero.nombre}.");
+            return db.RegistrarEnfermeros(enfermero);
         }
 
-        public void MostrarRegistro(string cuil)
+        public List<Enfermero> MostrarRegistro(string cuil)
         {
             var lista = db.ObtenerTodos();
-            foreach (var item in lista) 
-            {
-                if (item.cuil == cuil)
-                {
-                    Console.WriteLine(item);
-                }
-                else 
-                {
-                    throw new Exception("No se encuentra registrado");
-                }
-            }
+            var resulatados = lista.Where(e => e.cuil == cuil).ToList();
+            return resulatados;
         }
-        public void AñadirPacientes(Paciente paciente) 
+        public bool AñadirPacientes(Paciente paciente) 
         {
-            db.RegistrarPacientes(paciente);
+            return db.RegistrarPacientes(paciente);
         }
 
         public void MostrarRegistroPacientes(string cuil)

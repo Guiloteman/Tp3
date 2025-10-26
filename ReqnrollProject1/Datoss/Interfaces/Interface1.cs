@@ -9,10 +9,10 @@ namespace ReqnrollProject1.Datoss.Interfaces
 {
     public interface Interface1
     {
-        void RegistrarEnfermeros(Enfermero enfermero);
+        bool RegistrarEnfermeros(Enfermero enfermero);
 
         List<Enfermero> ObtenerTodos();
-        void RegistrarPacientes(Paciente paciente);
+        bool RegistrarPacientes(Paciente paciente);
         List<Paciente> ObtenerPacientes();
         void RegistrarHistorias(HistoriaPaciente historiaPaciente);
         List<HistoriaPaciente> ObtenerHistorias();
