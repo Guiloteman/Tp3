@@ -11,6 +11,7 @@ namespace ReqnrollProject1.StepDefinitions
     {
         private readonly Interface1 baseDeDatosReal;
         private readonly ServiciosRegistros servicios;
+        string espera = "";
         
         public CalculatorStepDefinitions() 
         {
@@ -46,6 +47,7 @@ namespace ReqnrollProject1.StepDefinitions
             {
                 var cuil = item["Cuil"];
                 servicios.MostrarRegistroHistorias(cuil);
+                espera = cuil;
             }
         }
 
@@ -55,8 +57,19 @@ namespace ReqnrollProject1.StepDefinitions
             foreach (var item in dataTable.Rows)
             {
                 var cuil = item["Cuil"];
-                servicios.MostrarRegistroHistorias(cuil);
+                Assert.AreEqual(cuil, espera);
             }
         }
+
+        [Then("se muestra los pacientes en espera de la siguiente manera:")]
+        public void ThenSeMuestraLosPacientesEnEsperaDeLaSiguienteManera(DataTable dataTable)
+        {
+            foreach(var item in dataTable.Rows)
+            {
+                var cuil = item["Cuil"];
+                Assert.AreEqual(cuil, espera);
+            }
+        }
+
     }
 }

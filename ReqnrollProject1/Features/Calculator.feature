@@ -20,3 +20,17 @@ Scenario: Ver en pantalla la historia del paciente
 	Then se muestra por los datos del paciente:
 	| Nombre | Apellido | Cuil          | Consulta                 | Fecha de consulta |
 	| Guido  | Kaczka   | 20-25123456-3 | Dolor en la zona pélvica | 12/10/2025        |
+
+@tag2
+Scenario: Ver los pacientes pendientes de evaluar
+	Given que estan registrado al sistema los siguientes pacientes:
+	| Nombre | Apellido | Cuil          |
+	| Guido  | Kaczka   | 20-25123456-3 |
+	| Analía | Ruberta  | 23-22999999-8 |
+	When se ingresa el siguiente cuil:
+	| Cuil          |
+	| 20-25123456-3 |
+	| 23-22999999-8 |
+	Then se muestra los pacientes en espera de la siguiente manera:
+	| Nombre | Apellido | Cuil          |
+	| Analía | Ruberta  | 23-22999999-8 |

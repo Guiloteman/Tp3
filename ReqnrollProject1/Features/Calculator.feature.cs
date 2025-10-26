@@ -135,7 +135,7 @@ await testRunner.GivenAsync("que estan cargados al sistema los siguientes enferm
         
         private static global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages InitializeCucumberMessages()
         {
-            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/Calculator.feature.ndjson", 3);
+            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/Calculator.feature.ndjson", 4);
         }
         
         [global::Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute("Ver en pantalla la historia del paciente")]
@@ -196,6 +196,71 @@ await this.FeatureBackgroundAsync();
                             "12/10/2025"});
 #line 20
  await testRunner.ThenAsync("se muestra por los datos del paciente:", ((string)(null)), table4, "Then ");
+#line hidden
+            }
+            await this.ScenarioCleanupAsync();
+        }
+        
+        [global::Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute("Ver los pacientes pendientes de evaluar")]
+        [global::Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Ver los pacientes pendientes de evaluar")]
+        [global::Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Calculator")]
+        [global::Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("tag2")]
+        public async global::System.Threading.Tasks.Task VerLosPacientesPendientesDeEvaluar()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "tag2"};
+            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            string pickleIndex = "1";
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Ver los pacientes pendientes de evaluar", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
+            string[] tagsOfRule = ((string[])(null));
+            global::Reqnroll.RuleInfo ruleInfo = null;
+#line 25
+this.ScenarioInitialize(scenarioInfo, ruleInfo);
+#line hidden
+            if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                await testRunner.SkipScenarioAsync();
+            }
+            else
+            {
+                await this.ScenarioStartAsync();
+#line 7
+await this.FeatureBackgroundAsync();
+#line hidden
+                global::Reqnroll.Table table5 = new global::Reqnroll.Table(new string[] {
+                            "Nombre",
+                            "Apellido",
+                            "Cuil"});
+                table5.AddRow(new string[] {
+                            "Guido",
+                            "Kaczka",
+                            "20-25123456-3"});
+                table5.AddRow(new string[] {
+                            "Anal�a",
+                            "Ruberta",
+                            "23-22999999-8"});
+#line 26
+ await testRunner.GivenAsync("que estan registrado al sistema los siguientes pacientes:", ((string)(null)), table5, "Given ");
+#line hidden
+                global::Reqnroll.Table table6 = new global::Reqnroll.Table(new string[] {
+                            "Cuil"});
+                table6.AddRow(new string[] {
+                            "20-25123456-3"});
+                table6.AddRow(new string[] {
+                            "23-22999999-8"});
+#line 30
+ await testRunner.WhenAsync("se ingresa el siguiente cuil:", ((string)(null)), table6, "When ");
+#line hidden
+                global::Reqnroll.Table table7 = new global::Reqnroll.Table(new string[] {
+                            "Nombre",
+                            "Apellido",
+                            "Cuil"});
+                table7.AddRow(new string[] {
+                            "Anal�a",
+                            "Ruberta",
+                            "23-22999999-8"});
+#line 34
+ await testRunner.ThenAsync("se muestra los pacientes en espera de la siguiente manera:", ((string)(null)), table7, "Then ");
 #line hidden
             }
             await this.ScenarioCleanupAsync();

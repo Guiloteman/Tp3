@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "ReqnrollProject1\\Modelo\\HistoriaPaciente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:21:07.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T16:21:07.207Z"
             },
             {
               "$type": "Document",
@@ -83,7 +82,19 @@
               "RelativeToolTip": "ReqnrollProject1\\Modelo\\Paciente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:02:53.283Z",
+              "WhenOpened": "2025-10-26T16:02:53.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.feature",
+              "DocumentMoniker": "C:\\Users\\guile\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\Features\\Calculator.feature",
+              "RelativeDocumentMoniker": "ReqnrollProject1\\Features\\Calculator.feature",
+              "ToolTip": "C:\\Users\\guile\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\Features\\Calculator.feature",
+              "RelativeToolTip": "ReqnrollProject1\\Features\\Calculator.feature",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARRSURBVEhLjZVbbBRVGMd/Z3a3s91btdu7pLRbLRFCQWwbWi0KhJho8An7UDQkYkjoAyWxxBvGC0ljUoEaifggKAkRYvCBmCBEiaBNi5ByKyhEsWivS1u7vUx39jbHh3amu0tr\u002BM/LnO/y/8985zvfETwIjheBTLgAJyARhHG7dDb2pEemQkop0m0Wap0KFY5i6lzVKNQCpUAWYACjQA\u002BG7ORn/RLdsX46wjKdAmB\u002BgQ\u002BBR/PrEbwGLAf8gD0pQgIxYAToQrKPhuD5JL\u002BFVIGHBHzyiJeMWDPwborv/yGRbOHLiW/4IRxNdtiSF1zLVLnnaASaADeAx\u002B5mbV4ddmFjLBrCZcukLnc1BZl59E0PmJkCwQpWqncJGbfpiVuUivUG0OV7AmgEckzTcwVrOVS9l7eXNpGr\u002BlmVXcGByhYOV7WhpKYXA4286s1PNs5F7MrKQHAAKAGEwswTik2SnfEwNf5KFrmLqM2potwTYDI2hYGRzGVHsA5FvIJrrvJzJarNrKPI/gYgXLZMXi55icd8Aa6HfmMyrqElNE4PncMubDhtKnt\u002B38/fWq\u002BVPgsBLKHE8QXtetQ0QIWqsCPrfdxiN8Bq/5OcWvM1MSPGueEOtl58HY/dxUhkFNWm4rN7uBcdIWEk0vgBkHRFnuHjUDtWiTzCg1sEzIhrYzc5OXCaYHSEJb4A5Z5ShvQgcRlHi2sM6sGFyJn96BXmwtyDjNlTCkDY0GnsepNtF5vZcmEnV0M3TFcKclU/Poc33Uxyk8wKyARg9ZZAsL1sC7uXNfHO0h0UZqY0BgBbSzdzrOYgh6vaWF\u002BwJt1t7fKMgBDTs8cfgKdzqmlZ/hbr8uoo9RQzFdfwObwoQsEu7LjtLu5O/0O5t4zni9bzVXWbmWqi33yZ6SJJgmVqIT7lRQA9HsWhODg/3Mm\u002B259T469kc8kmbk/eocxTws7ybVwZ6\u002BZs8Bd6pwc52X\u002BGy2PX5\u002BgHEy106P2kjIpdWUWsct4BVACn4kRiUODM59cNp9CNCA2d2wl4SjhUtZeroZs89eNGbMJGQiaIS6vCg1wOl9E6oZNy0FrHBxDsAcIAuqETMaIEPMVkKA5uTdxhMBzkr6m79Gi9LHYtwq9mEzEiyeQ6yBaTnPtm0Sbvn8DjQMD0jUbGGNSDfDdwhu7xW4xGxvhjqofvh85y5d9uJNaUNkB2IviIE9qEaUydpjkKfJq7GvgMWGmaFaEgpbTIFARydoQmYQRkMzkjR9lgWDMk9Q\u002BmJXyr9aGKdpZkLAayAVUiU6baPDeLhma0sX/8MK3xSLIjVcBEd3SYBu9PJOgFEoAPcN03fWe0gsBB9ofauBq1SmNi/hsNQBXwgk9Q7/IhjQpgL1CZFjUEfIDkCA1Ba2OTsbBAMo4XFSKNoyCfBTSgD7jAleg\u002BzkVucHE6PcPCgwkcK8gB3gOZB1wCo4MjU92cDk\u002Bmh6bjQQUUIAubLUx9/7ylWAj/AQ0Jh6r5YMmjAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-10-26T13:45:24.64Z",
               "EditorCaption": ""
             },
             {
@@ -96,8 +107,7 @@
               "RelativeToolTip": "ReqnrollProject1\\Modelo\\ServiciosRegistros.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:14:34.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T14:14:34.259Z"
             },
             {
               "$type": "Document",
@@ -109,8 +119,7 @@
               "RelativeToolTip": "ReqnrollProject1\\Datoss\\Interfaces\\Interface1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:12:06.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T14:12:06.315Z"
             },
             {
               "$type": "Document",
@@ -122,8 +131,7 @@
               "RelativeToolTip": "ReqnrollProject1\\Datoss\\DbPruebas.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:09:25.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T14:09:25.281Z"
             },
             {
               "$type": "Document",
@@ -133,22 +141,9 @@
               "RelativeDocumentMoniker": "ReqnrollProject1\\StepDefinitions\\CalculatorStepDefinitions.cs",
               "ToolTip": "C:\\Users\\guile\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\StepDefinitions\\CalculatorStepDefinitions.cs",
               "RelativeToolTip": "ReqnrollProject1\\StepDefinitions\\CalculatorStepDefinitions.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwEUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T13:45:29.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calculator.feature",
-              "DocumentMoniker": "C:\\Users\\guile\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\Features\\Calculator.feature",
-              "RelativeDocumentMoniker": "ReqnrollProject1\\Features\\Calculator.feature",
-              "ToolTip": "C:\\Users\\guile\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\Features\\Calculator.feature",
-              "RelativeToolTip": "ReqnrollProject1\\Features\\Calculator.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARRSURBVEhLjZVbbBRVGMd/Z3a3s91btdu7pLRbLRFCQWwbWi0KhJho8An7UDQkYkjoAyWxxBvGC0ljUoEaifggKAkRYvCBmCBEiaBNi5ByKyhEsWivS1u7vUx39jbHh3amu0tr\u002BM/LnO/y/8985zvfETwIjheBTLgAJyARhHG7dDb2pEemQkop0m0Wap0KFY5i6lzVKNQCpUAWYACjQA\u002BG7ORn/RLdsX46wjKdAmB\u002BgQ\u002BBR/PrEbwGLAf8gD0pQgIxYAToQrKPhuD5JL\u002BFVIGHBHzyiJeMWDPwborv/yGRbOHLiW/4IRxNdtiSF1zLVLnnaASaADeAx\u002B5mbV4ddmFjLBrCZcukLnc1BZl59E0PmJkCwQpWqncJGbfpiVuUivUG0OV7AmgEckzTcwVrOVS9l7eXNpGr\u002BlmVXcGByhYOV7WhpKYXA4286s1PNs5F7MrKQHAAKAGEwswTik2SnfEwNf5KFrmLqM2potwTYDI2hYGRzGVHsA5FvIJrrvJzJarNrKPI/gYgXLZMXi55icd8Aa6HfmMyrqElNE4PncMubDhtKnt\u002B38/fWq\u002BVPgsBLKHE8QXtetQ0QIWqsCPrfdxiN8Bq/5OcWvM1MSPGueEOtl58HY/dxUhkFNWm4rN7uBcdIWEk0vgBkHRFnuHjUDtWiTzCg1sEzIhrYzc5OXCaYHSEJb4A5Z5ShvQgcRlHi2sM6sGFyJn96BXmwtyDjNlTCkDY0GnsepNtF5vZcmEnV0M3TFcKclU/Poc33Uxyk8wKyARg9ZZAsL1sC7uXNfHO0h0UZqY0BgBbSzdzrOYgh6vaWF\u002BwJt1t7fKMgBDTs8cfgKdzqmlZ/hbr8uoo9RQzFdfwObwoQsEu7LjtLu5O/0O5t4zni9bzVXWbmWqi33yZ6SJJgmVqIT7lRQA9HsWhODg/3Mm\u002B259T469kc8kmbk/eocxTws7ybVwZ6\u002BZs8Bd6pwc52X\u002BGy2PX5\u002BgHEy106P2kjIpdWUWsct4BVACn4kRiUODM59cNp9CNCA2d2wl4SjhUtZeroZs89eNGbMJGQiaIS6vCg1wOl9E6oZNy0FrHBxDsAcIAuqETMaIEPMVkKA5uTdxhMBzkr6m79Gi9LHYtwq9mEzEiyeQ6yBaTnPtm0Sbvn8DjQMD0jUbGGNSDfDdwhu7xW4xGxvhjqofvh85y5d9uJNaUNkB2IviIE9qEaUydpjkKfJq7GvgMWGmaFaEgpbTIFARydoQmYQRkMzkjR9lgWDMk9Q\u002BmJXyr9aGKdpZkLAayAVUiU6baPDeLhma0sX/8MK3xSLIjVcBEd3SYBu9PJOgFEoAPcN03fWe0gsBB9ofauBq1SmNi/hsNQBXwgk9Q7/IhjQpgL1CZFjUEfIDkCA1Ba2OTsbBAMo4XFSKNoyCfBTSgD7jAleg\u002BzkVucHE6PcPCgwkcK8gB3gOZB1wCo4MjU92cDk\u002Bmh6bjQQUUIAubLUx9/7ylWAj/AQ0Jh6r5YMmjAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-10-26T13:45:24.64Z",
               "EditorCaption": ""
             }
           ]

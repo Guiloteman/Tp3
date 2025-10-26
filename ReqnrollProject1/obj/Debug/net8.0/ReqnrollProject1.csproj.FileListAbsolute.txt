@@ -192,3 +192,4 @@ C:\Users\guile\source\repos\ReqnrollProject1\ReqnrollProject1\obj\Debug\net8.0\r
 C:\Users\guile\source\repos\ReqnrollProject1\ReqnrollProject1\obj\Debug\net8.0\ReqnrollProject1.pdb
 C:\Users\guile\source\repos\ReqnrollProject1\ReqnrollProject1\obj\Debug\net8.0\ReqnrollProject1.genruntimeconfig.cache
 C:\Users\guile\source\repos\ReqnrollProject1\ReqnrollProject1\obj\Debug\net8.0\ref\ReqnrollProject1.dll
+C:\Users\guile\source\repos\ReqnrollProject1\ReqnrollProject1\obj\Debug\net8.0\ReqnrollProject1.sourcelink.json
